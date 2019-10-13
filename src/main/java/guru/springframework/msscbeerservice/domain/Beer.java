@@ -42,4 +42,5 @@ public class Beer {
 
   private Integer minOnHand;
   private Integer quantityToBrew;
+
 }

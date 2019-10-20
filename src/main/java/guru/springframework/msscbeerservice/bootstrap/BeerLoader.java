@@ -5,12 +5,11 @@ import guru.springframework.msscbeerservice.repositories.BeerRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
 
 import java.math.BigDecimal;
 
 @Slf4j
-@Component
+//@Component
 public class BeerLoader implements CommandLineRunner {
 
   public static final String BEER_1_UPC= "0631234200036";
@@ -26,7 +25,7 @@ public class BeerLoader implements CommandLineRunner {
 
   @Override
   public void run(String... args) throws Exception {
-    loadBeerObjects();
+//    loadBeerObjects();
   }
 
   private void loadBeerObjects() {

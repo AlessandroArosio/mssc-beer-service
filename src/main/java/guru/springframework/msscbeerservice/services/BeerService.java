@@ -18,4 +18,6 @@ public interface BeerService {
                           BeerStyleEnum beerStyle,
                           PageRequest pageRequest,
                           Boolean showInventoryOnHand);
+
+  BeerDto getByUpc(String upc);
 }
